@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "node ./node_modules/reactpack/cli.js ./src/index.js --dev --watch",
-    "test": "node ./node_modules/jest-cli/bin/jest.js"
+    "test": "node ./node_modules/standard/bin/cmd.js __tests__/**/*.js && node ./node_modules/jest-cli/bin/jest.js"
   },
   "repository": {
     "type": "git",
@@ -42,5 +42,8 @@
       "<rootDir>/node_modules/react-dom",
       "<rootDir>/node_modules/react-addons-test-utils"
     ]
+  },
+  "standard": {
+    "globals": ["jest", "describe", "it", "expect"]
   }
 }
