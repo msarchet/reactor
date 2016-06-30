@@ -1,6 +1,6 @@
 # reactor
 
-Bootstrapping repository for building a react app
+Bootstrapping repository for building a react app or component library
 
 ## How Do I Use This?
 
@@ -33,9 +33,17 @@ I'm open to pull requests against this repository, but it shouldn't replace anyt
 
 One command to do the builds, as well as dev server, linting. Lots of good stuff here
 
-### [jest](https://facebook.github.io/jest/) For Testing
+### [jest](https://facebook.github.io/jest/) test runner
 
 No reason to use anything else
+
+### [enzyme](https://github.com/airbnb/enzyme) test helpers
+
+Removes much of the boiler plate for writing tests
+
+### [sinon](https://sinonjs.org) mocking
+
+Very simple mocking with lots of functionality
 
 ### [CSS Modules](https://github.com/css-modules/css-modules)
 
